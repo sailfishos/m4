@@ -1,0 +1,29 @@
+* Thu Apr 07 2011 Junfeng Dong <junfeng.dong@intel.com> - 1.4.16
+- Update to 1.4.16
+
+* Thu Dec 10 2009 Austin Zhang <austin.zhang@intel.com> - 1.4.13
+- Remove unset LD_AS_NEEDED
+
+* Thu Sep 24 2009 Anas Nashif <anas.nashif@intel.com> - 1.4.13
+- Remove %_infodir/dir, again
+
+* Thu Sep 24 2009 Anas Nashif <anas.nashif@intel.com> - 1.4.13
+- Fixed file list
+
+* Sat Sep 19 2009 Anas Nashif <anas.nashif@intel.com> - 1.4.13
+- Dont install infodir
+
+* Mon Aug 17 2009 Austin Zhang <austin.zhang@intel.com> 1.4.13
+- Update to version 1.4.13
+
+* Thu Jan 08 2009 Anas Nashif <anas.nashif@intel.com> 1.4.12
+- Update to version 1.4.12
+
+* Thu Dec 18 2008 Arjan van de Ven <arjan@linux.intel.com> 1.4.10
+- Use standard specfile
+
+* Fri Sep 12 2008 Yi Yang <yi.y.yang@intel.com> 1.4.10
+- Remove installation warnings of info files
+
+* Wed Jul 23 2008 Xu Li <xu.li@intel.com>
+- add %doc to man/info in %files
