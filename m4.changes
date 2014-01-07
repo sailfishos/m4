@@ -1,3 +1,6 @@
+* Tue Jan 07 2014 Carsten Munk <carsten.munk@jollamobile.com> - 1.4.16
+- Add aarch64 support and gets deprecation
+
 * Thu Apr 07 2011 Junfeng Dong <junfeng.dong@intel.com> - 1.4.16
 - Update to 1.4.16
 
