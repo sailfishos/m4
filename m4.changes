@@ -1,3 +1,6 @@
+* Tue Feb 17 2015 Carsten Munk <carsten.munk@jolla.com> - 1.4.16
+- Remove useless Makefile
+
 * Tue Jan 07 2014 Carsten Munk <carsten.munk@jollamobile.com> - 1.4.16
 - Add aarch64 support and gets deprecation
 
