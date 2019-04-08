@@ -3,14 +3,13 @@
 
 Name:       m4
 Summary:    The GNU macro processor
-Version:    1.4.16
+Version:    1.4.18
 Release:    1
 Group:      Applications/Text
 License:    GPLv3+
 URL:        http://www.gnu.org/software/m4/
-Source0:    ftp://ftp.gnu.org/gnu/m4/m4-%{version}.tar.bz2
-Patch0:     m4-aarch64.patch
-Patch1:     m4-gets-aarch64.patch
+Source0:    ftp://ftp.gnu.org/gnu/m4/m4-%{version}.tar.xz
+Patch0:     m4-1.4.18-glibc-change-work-around.patch
 Requires(post): /sbin/install-info
 Requires(postun): /sbin/install-info
 
@@ -31,7 +30,6 @@ Install m4 if you need a macro processor.
 %prep
 %setup -q -n %{name}-%{version}
 %patch0 -p1
-%patch1 -p1
 # >> setup
 # << setup
 
