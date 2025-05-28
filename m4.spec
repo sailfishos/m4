@@ -1,6 +1,6 @@
 Name:       m4
 Summary:    The GNU macro processor
-Version:    1.4.19
+Version:    1.4.20
 Release:    1
 License:    GPLv3+
 URL:        http://www.gnu.org/software/m4/
@@ -38,7 +38,6 @@ if [ $1 = 0 ] ;then
 fi
 
 %files -f %{name}.lang
-%defattr(-,root,root,-)
 %license COPYING
 %doc AUTHORS NEWS README THANKS TODO
 %{_bindir}/m4
